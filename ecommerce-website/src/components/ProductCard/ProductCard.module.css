@@ -1,0 +1,17 @@
+/* Style the product title */
+.productTitle {
+  font-size: 1.25rem; /* Adjust as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+}
+
+@media (min-width: 576px) {
+  .customImgClass {
+    /* Apply Bootstrap's img-fluid class for small screens and up */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
